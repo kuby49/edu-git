@@ -1,7 +1,7 @@
 # Copyright 2019 Cloudera, Inc.
 # Not to be reproduced or shared without prior written consent from Cloudera.
-
-
+# modified for the sake of example / exercise following 
+    
 def get_state_temp(one_record):
     """This function retrieves the state of radios and temp from one record"""
     entries = one_record.split(',')
@@ -31,7 +31,7 @@ if __name__ == "__main__":
     file_location (argv[1]): which file to read
     which_record (argv[2]): the line that contains the record we want 
     """
-    print ("god knows")
+    print ("Application completed")
     # Set the variables
 
     # Open file and get the n-th line
