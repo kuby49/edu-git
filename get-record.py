@@ -31,7 +31,7 @@ if __name__ == "__main__":
     file_location (argv[1]): which file to read
     which_record (argv[2]): the line that contains the record we want 
     """
-    print ("Application completed")
+    print ("Done")
     # Set the variables
 
     # Open file and get the n-th line
